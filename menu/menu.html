@@ -24,7 +24,7 @@
           <a class="nav-link" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Productos</a>
+          <a class="nav-link" aria-current="page" href="#">Productos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Ofertas</a>
@@ -40,6 +40,10 @@
 <header class="text-white text-center py-2" id="headerTitulo">
   <div class="container">
       <h3>-Categoría-</h3>
+      <form class="d-flex ms-auto my-2 my-lg-0" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Buscar">
+        <button class="btn btn-outline-light" type="submit">Buscar</button>
+    </form>
   </div>
 </header>
 
